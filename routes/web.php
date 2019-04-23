@@ -18,3 +18,5 @@ Route::get('/', function () {
 Route::get('test', 'TestController@test');
 
 Route::post('test2', 'TestController@post');
+
+Route::get('reports', 'ReportsController@index');

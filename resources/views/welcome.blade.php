@@ -62,6 +62,10 @@
             .m-b-md {
                 margin-bottom: 30px;
             }
+            
+            .align-left {
+                text-align: left;
+            }
         </style>
     </head>
     <body>
@@ -91,7 +95,7 @@
 
                <p><strong>Issues that need to be addressed:</strong></p>
 
-               <ul>
+               <ul class="align-left">
                    <li>Fix this list so it justify to the left without losing the format of the rest of page</li>
                    <li>Go to route <a href="test">/test</a> and tell me specifically what is wrong and fix it.</li>
                    <li>Create a resourceful Controller and Model for a object called Report</li>

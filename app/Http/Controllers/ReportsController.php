@@ -3,8 +3,9 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Report;
 
-class TestController extends Controller
+class ReportsController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -13,7 +14,7 @@ class TestController extends Controller
      */
     public function index()
     {
-        return 'You have reached the test page';
+        return view('reports');
     }
 
     /**
@@ -21,9 +22,9 @@ class TestController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function post()
+    public function create()
     {
-        return 'Why am I not getting this response?';
+        //
     }
 
     /**
@@ -80,10 +81,5 @@ class TestController extends Controller
     public function destroy($id)
     {
         //
-    }
-
-    //Added this function for the item #2 of the test
-    public function test(){
-
     }
 }
